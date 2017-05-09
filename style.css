@@ -1,0 +1,56 @@
+body{
+	margin: 0px;
+	text-align:center;
+}
+header{
+	height: 40px;
+	margin-top: 25px;
+}
+.logo{
+	width: 50px;
+	height: 20px;
+	background-color: #000000;
+	margin-left: 100px;
+	margin-right: 0px;
+}
+.logo a{
+	color: white;
+	font-size: 10px;
+	font-style: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 20px;
+	font-family: montserrat;
+	vertical-align: middle;
+}
+
+.section1{
+	background: url("back-c1.png") no-repeat;
+	position: absolute;
+	min-height: 100vh;
+	background-size: contain;
+	
+}
+
+.menu a{
+	color: white;
+	font-size: 7.5px;
+	font-style: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: montserrat;
+	border-bottom:2px solid white;
+	border-top:2px solid white;
+	padding: 4px 0px;
+	margin-left: 575px;
+}
+/*.menu{
+	background:url("menu-icon.png") ;
+	margin-left: 1350px;
+	margin-top: -942px;
+	position: absolute;
+} */
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
