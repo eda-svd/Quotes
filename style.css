@@ -5,6 +5,7 @@ body{
 header{
 	height: 40px;
 	margin-top: 25px;
+
 }
 
 
@@ -15,9 +16,14 @@ header{
 	background-size: contain;
 	
 }
+.menu{
+	display: inline-block;
+	float: right;
+	margin-right: 90px;
+}
 
 .menu a{
-	display: block;
+	display: inline-block;
 	color: white;
 	font-size: 7.5px;
 	font-style: bold;
@@ -27,29 +33,32 @@ header{
 	border-bottom:2px solid white;
 	border-top:2px solid white;
 	padding: 4px 0px;
-	margin-left: 675px;
+	
 	text-align: left;
 	width: 25px;
 
 }
 .logo{
-	width: 50px;
-	height: 20px;
+	width: 100px;
+	height: 40px;
 	background-color: #000000;
 	margin-left: 100px;
 	margin-right: 0px;
-	display: block;
+	
+	float: left;
 
 }
 .logo a{
 	color: white;
-	font-size: 10px;
-	font-style: bold;
+	font-size: 15px;
+	font-weight: bold;
 	text-decoration: none;
 	text-transform: uppercase;
-	line-height: 20px;
+	line-height: 40px;
 	font-family: montserrat;
 	vertical-align: middle;
+    display: block;
+    letter-spacing: 0.15em;
 }
 /*.menu{
 	background:url("menu-icon.png") ;
