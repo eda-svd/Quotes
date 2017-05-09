@@ -6,12 +6,40 @@ header{
 	height: 40px;
 	margin-top: 25px;
 }
+
+
+.section1{
+	background: url("back-c1.png") no-repeat;
+	position: absolute;
+	min-height: 100vh;
+	background-size: contain;
+	
+}
+
+.menu a{
+	display: block;
+	color: white;
+	font-size: 7.5px;
+	font-style: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: montserrat;
+	border-bottom:2px solid white;
+	border-top:2px solid white;
+	padding: 4px 0px;
+	margin-left: 675px;
+	text-align: left;
+	width: 25px;
+
+}
 .logo{
 	width: 50px;
 	height: 20px;
 	background-color: #000000;
 	margin-left: 100px;
 	margin-right: 0px;
+	display: block;
+
 }
 .logo a{
 	color: white;
@@ -23,34 +51,54 @@ header{
 	font-family: montserrat;
 	vertical-align: middle;
 }
-
-.section1{
-	background: url("back-c1.png") no-repeat;
-	position: absolute;
-	min-height: 100vh;
-	background-size: contain;
-	
-}
-
-.menu a{
-	color: white;
-	font-size: 7.5px;
-	font-style: bold;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-family: montserrat;
-	border-bottom:2px solid white;
-	border-top:2px solid white;
-	padding: 4px 0px;
-	margin-left: 575px;
-}
 /*.menu{
 	background:url("menu-icon.png") ;
 	margin-left: 1350px;
 	margin-top: -942px;
 	position: absolute;
 } */
+.smile{
+color: white;
+	font-size: 110px;
+	font-weight:100;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 20px;
+	font-family: raleway;
+	margin-left: 280px;
+	letter-spacing: 0.12em;
+	margin-top: 164px;
+	display: inline-block;
+}
+.nothing{
+color: white;
+	font-size: 32px;
+	font-weight: 600;
+	text-decoration: none;
+	line-height: 20px;
+	font-family: raleway;
+	margin-top: 24px;
+	margin-left: 270px;
+	display: inline-block;
+	letter-spacing: 0.12em;
+}
 .container{
 	width: 800px;
 	margin: 0 auto;
+}
+.navigation{
+	margin-top: 50px;
+	margin-right: 150px;
+	display: inline;
+}
+.dot{
+	margin-top:110px; 
+	
+}
+.dot-current{
+	
+}
+.dot img{
+	width: 8px;
+	margin-right: 10px;
 }
