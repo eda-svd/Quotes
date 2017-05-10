@@ -2,6 +2,7 @@ body{
 	margin: 0px;
 	text-align:center;
 }
+
 header{
 	height: 40px;
 	margin-top: 25px;
@@ -22,8 +23,57 @@ header{
 	margin-right: 90px;
 }
 
-.menu a{
-	display: inline-block;
+.menu-bg{
+	background: url("menu-bg.png") no-repeat;
+	position: absolute;
+	min-height: 100vh;
+	width: 100%;
+	background-size: contain;
+}
+.menu-close{
+	display: block;
+	background: url("close-icon.png") no-repeat;
+	position: absolute;
+	margin-left: 685px;
+	margin-top: 20px;
+	width: 25px;
+	height: 25px;
+	background-size: 100%;
+	color: white;
+	font-size: 10px;
+	font-style: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: montserrat;
+	cursor: pointer;
+}
+.menu-list{
+	margin-top: 95px;
+	margin-left: 150px;
+}
+.menu-list a{
+	color: #626262;
+	font-size: 25px;
+	font-style: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: montserrat;
+	cursor: pointer;
+	display: block;
+	text-align: left;
+	margin-bottom: 10px;
+	
+}
+.menu-list a:hover{
+	color: white;
+	text-decoration: underline;
+}
+.hidden{
+	display: none;
+}
+
+.menu .btn{
+	display: block;
 	color: white;
 	font-size: 7.5px;
 	font-style: bold;
@@ -34,10 +84,12 @@ header{
 	border-top:2px solid white;
 	padding: 4px 0px;
 	
+	cursor: pointer;
 	text-align: left;
 	width: 25px;
 
 }
+
 .logo{
 	width: 100px;
 	height: 40px;
