@@ -5,14 +5,12 @@ body{
 
 header{
 	height: 40px;
-	margin-top: 25px;
+	padding-top: 25px;
 
 }
 
-
 .section1{
 	background: url("back-c1.png") no-repeat;
-	position: absolute;
 	min-height: 100vh;
 	background-size: contain;
 	
@@ -20,7 +18,6 @@ header{
 .menu{
 	display: inline-block;
 	float: right;
-	margin-right: 90px;
 }
 
 .menu-bg{
@@ -31,20 +28,13 @@ header{
 	background-size: contain;
 }
 .menu-close{
-	display: block;
-	background: url("close-icon.png") no-repeat;
+	background: url("close-menu.png") no-repeat;
+	margin-left: 675px;
 	position: absolute;
-	margin-left: 685px;
+	height: 40px;
+	width: 32px;
 	margin-top: 20px;
-	width: 25px;
-	height: 25px;
 	background-size: 100%;
-	color: white;
-	font-size: 10px;
-	font-style: bold;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-family: montserrat;
 	cursor: pointer;
 }
 .menu-list{
@@ -83,7 +73,6 @@ header{
 	border-bottom:2px solid white;
 	border-top:2px solid white;
 	padding: 4px 0px;
-	
 	cursor: pointer;
 	text-align: left;
 	width: 25px;
@@ -94,9 +83,6 @@ header{
 	width: 100px;
 	height: 40px;
 	background-color: #000000;
-	margin-left: 100px;
-	margin-right: 0px;
-	
 	float: left;
 
 }
@@ -112,12 +98,7 @@ header{
     display: block;
     letter-spacing: 0.15em;
 }
-/*.menu{
-	background:url("menu-icon.png") ;
-	margin-left: 1350px;
-	margin-top: -942px;
-	position: absolute;
-} */
+
 .smile{
 color: white;
 	font-size: 110px;
@@ -126,25 +107,30 @@ color: white;
 	text-transform: uppercase;
 	line-height: 20px;
 	font-family: raleway;
-	margin-left: 280px;
+	margin-left: 255px;
 	letter-spacing: 0.12em;
-	margin-top: 164px;
+	margin-top: 170px;
 	display: inline-block;
 }
 .nothing{
-color: white;
+    color: white;
 	font-size: 32px;
 	font-weight: 600;
 	text-decoration: none;
 	line-height: 20px;
 	font-family: raleway;
-	margin-top: 24px;
-	margin-left: 270px;
-	display: inline-block;
+	margin-top: 19px;
+	white-space: nowrap;
+	margin-left: 260px;
+	display:block;
 	letter-spacing: 0.12em;
 }
 .container{
-	width: 800px;
+	width: 600px;
+	margin: 0 auto;
+}
+.container-50{
+	width: 700px;
 	margin: 0 auto;
 }
 .navigation{
@@ -163,3 +149,197 @@ color: white;
 	width: 8px;
 	margin-right: 10px;
 }
+.section2{
+	background: white;
+	height: 370px;
+}
+.h2{
+	color: black;
+	font-size: 30px;
+	font-weight: 100;
+	text-decoration: none;
+	line-height: 50px;
+	font-family: raleway;
+	white-space: nowrap;
+	display:block;
+	letter-spacing: 0.12em;
+	padding-top:45px; 
+}
+.h1{
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 20px;
+	font-family: raleway;
+	white-space: nowrap;
+	display:block;
+	letter-spacing: 0.12em;
+}
+.t1{
+	color: black;
+	font-size: 10px;
+	font-weight: 600;
+	text-decoration: none;
+	padding-top: 25px; 
+	font-family: raleway;
+	white-space: nowrap;
+	display:block;
+	letter-spacing: 0.12em;
+}
+.t2{
+	color: black;
+	font-size: 10px;
+	font-weight: 400;
+	text-decoration: none;
+	line-height: 20px;
+	font-family: raleway;
+	white-space: nowrap;
+	display:block;
+	margin-top: 33px;
+	letter-spacing: 0.12em;
+}
+.line{
+	background: url("line.png") no-repeat;
+    width: 40px;
+    height: 1px;
+    margin:auto;
+    margin-top: 25px;
+
+}
+.section3{
+	background: #ffe9e2;
+	height: 325px;
+
+}
+.slide-s3{
+	width: 399px;
+	float: right;
+}
+.t3{
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+	padding-top: 73px;
+	line-height: 25px; 
+	font-family: raleway;
+	white-space: nowrap;
+	padding-right: 80px;
+	float: left;
+}
+.t4{
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	font-family: raleway;
+	white-space: nowrap;
+	float: left;
+	padding-top: 25px;
+	text-align: left;
+}
+.nav-bar{
+	padding-top: 25px;
+float: left;
+}
+.nav-bar img{
+	width: 7px;
+	height: 7px;
+	margin-right: 10px;
+}
+.section4{
+	background: white;
+	height: 585px;
+}
+.h3{
+	margin-top: 77px;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 20px;
+	font-family: raleway;
+	white-space: nowrap;
+	display:block;
+	text-align: left;
+	
+}
+.table{
+display: table;
+border-collapse: collapse;
+width: 700px;
+margin-top: 70px;
+
+}
+.row{
+display: table-row;
+border-collapse: collapse;
+}
+.cell{
+display: table-cell;
+border:1px solid #dcdcdc;
+border-collapse: collapse;
+height: 145px;
+width: 350px;
+padding-left: 28px;
+padding-right: 50px;
+}
+.t5{
+color: black;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: raleway;
+	text-transform: uppercase;
+	padding-top: 25px;
+	text-align: left;
+}
+.t6{
+color: black;
+	font-size: 10px;
+	font-weight: 400;
+	text-decoration: none;
+	font-family: raleway;
+	
+	float: left;
+	padding-top: 20px;
+	text-align: left;
+}
+.t7{
+color: black;
+	font-size: 10px;
+	font-weight: 400;
+	font-style: italic;
+	font-family: raleway;
+	line-height:20px;
+	float: left;
+	text-align: left;
+}
+.section4 .line{
+	background: url("line-s4.png") no-repeat;
+    width: 40px;
+    height: 2px;
+    float: left;
+    display: block;
+    margin-top: 20px;
+
+}
+.reasons-btn{
+
+	display: block;
+	color: black;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: montserrat;
+	border:1px solid black;
+	border-radius: 3px;
+	padding: 10px 5px;
+	cursor: pointer;
+	width: 140px;
+	margin: auto;
+	margin-top: 33px;
+	
