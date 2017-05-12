@@ -160,7 +160,6 @@ color: white;
 	text-decoration: none;
 	line-height: 50px;
 	font-family: raleway;
-	white-space: nowrap;
 	display:block;
 	letter-spacing: 0.12em;
 	padding-top:45px; 
@@ -254,7 +253,7 @@ float: left;
 	height: 585px;
 }
 .h3{
-	margin-top: 77px;
+	padding-top: 77px;
 	color: black;
 	font-size: 30px;
 	font-weight: bold;
@@ -342,4 +341,247 @@ color: black;
 	width: 140px;
 	margin: auto;
 	margin-top: 33px;
+}
+.section5{
+background: url("back-s5.png") no-repeat ;
+background-size: contain;
+height: 330px;
+
+}
+.section5 .h2{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 50px;
+	font-family: raleway;
+	display:block;
+	letter-spacing: 0.01em;
+	padding-top:90px; 
+}
+.section5 .t1{
+	color: white;
+	font-size: 10px;
+	font-weight: 200;
+	padding-top: 25px; 
+	font-family: raleway;
+	white-space: nowrap;
+	display:block;
+	letter-spacing: 0.12em;
+}
+.section5 a{
+	color: white;
+	font-size: 10px;
+	font-weight: 200;
+	font-family: raleway;
+	letter-spacing: 0.12em;
+}
+.section6{
+	background: url("back-s6.png") no-repeat;
+	min-height: 100vh;
+
+}
+.section6 .line{
+	background: url("line-s4.png") no-repeat;
+    width: 40px;
+    height: 2px;
+    float: left;
+    display: block;
+    margin-top: 20px;
+    padding-left: 100vw;
+}
+
+.p-big{
+	background: url("poster1.png");
+	height: 380px;
+	width: 280px;
+	background-size: contain;
+	float: left;
+	margin-top: 50px;
+
+	position: relative;
+
+}
+.p-big:hover{
+	box-shadow: 0 0 50px 5px rgba(0,0,0,0.5);
+}
+.p-wide{
+	background: url("poster2.png");
+	height: 185px;
+    width: 370px;
+	background-size: contain;
+	margin-top: 50px;
+	float: right;
+	margin-bottom: 5px;
+
+	position: relative;
 	
+}
+.p-wide:hover{
+	box-shadow: 0 0 50px 5px rgba(0,0,0,0.5);
+}
+.p-small-left{
+	background: url("poster3.png");
+	height: 170px;
+	width: 165px;
+	background-size: contain;
+	float: right;
+	margin: 20px;
+	margin-bottom: 0px;
+
+	position: relative;
+}
+.p-small-left:hover{
+	box-shadow: 0 0 50px 5px rgba(0,0,0,0.5);
+}
+.p-small{
+	background: url("poster4.png");
+	height: 170px;
+	width: 165px;
+	background-size: contain;
+	float: right;
+	margin-top: 20px;
+	margin-left: 20px;
+
+	position: relative;
+}
+.p-small:hover{
+	box-shadow: 0 0 50px 5px rgba(0,0,0,0.5);
+}
+.posters{
+}
+.buy{
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: montserrat;
+	position: absolute;
+	display: block;
+	float: left;
+	bottom: 5px;
+	left: 15px;
+    letter-spacing: 0.15em;
+
+	padding: 5px;
+
+}
+.buy:hover{
+	border: 2px solid white;
+}
+.share{
+	position: absolute;
+	background: url("share.png") no-repeat;
+	width: 56px;
+	height: 10px;
+	display: block;
+	right: 10px;
+	bottom:12px;
+	background-size: contain;
+}
+.browse-btn{
+	color: black;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: montserrat;
+	border:1px solid black;
+	border-radius: 3px;
+	padding: 10px 10px;
+	cursor: pointer;
+	width: 160px;
+	top: 60px;
+	position: relative;
+
+	}
+	.section7{
+		min-height: 50vh;
+
+	}
+	.browse{
+		width: 25%;
+		min-height: 200px;
+		float: left;
+	}
+	.browse a{
+		display: block;
+  font-size: 8px;
+  font-family: "Montserrat";
+  text-align: left;
+  color: black;
+  text-transform: uppercase;
+  line-height: 0.85;
+  text-decoration: none;
+}
+ul{
+ margin-left: 0px;
+ padding-left: 0px;
+}
+
+.shop{
+	width: 25%;
+min-height: 200px;
+float: left;
+}
+.shop a{
+  font-size: 8px;
+  font-family: "Montserrat";
+  color: black;
+  display: block;
+  text-transform: uppercase;
+  line-height: 0.85;
+  text-align: left;
+  text-decoration: none;
+}
+li{
+	list-style: none;
+
+}
+.contact{
+	width: 25%;
+min-height: 200px;
+float: left;
+}
+.contact ul{
+	font-size: 8px;
+  font-family: "Montserrat";
+  color: black;
+  display: block;
+  text-transform: uppercase;
+  line-height: 0.85;
+  text-align: left;
+  text-decoration: none;
+}
+
+.top{
+font-size: 10px;
+font-weight: bold;
+
+
+
+
+font-family: "Montserrat";
+  color: black;
+  display: block;
+  text-transform: uppercase;
+  line-height: 0.85;
+  text-align: left;
+  text-decoration: none;
+}
+.subscribe{
+	width: 25%;
+min-height: 200px;
+float:left;
+}
+p{
+	font-size: 8px;
+  font-family: "Montserrat";
+  color: black;
+  display: block;
+  text-transform: uppercase;
+  line-height: 0.85;
+  text-align: left;
+  text-decoration: none;
+}
