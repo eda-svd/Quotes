@@ -12,7 +12,7 @@ header{
 .section1{
 	background: url("back-c1.png") no-repeat;
 	min-height: 100vh;
-	background-size: contain;
+	background-size: cover;
 	
 }
 .menu{
@@ -24,27 +24,25 @@ header{
 	background: url("menu-bg.png") no-repeat;
 	position: absolute;
 	min-height: 100vh;
-	width: 100%;
-	background-size: contain;
+	min-width: 100vw;
+	background-size: cover;
 }
 .menu-close{
 	background: url("close-menu.png") no-repeat;
-	margin-left: 675px;
-	position: absolute;
+	float: right;
 	height: 40px;
 	width: 32px;
-	margin-top: 20px;
+	margin-top: 25px;
 	background-size: 100%;
 	cursor: pointer;
 }
 .menu-list{
-	margin-top: 95px;
-	margin-left: 150px;
+	padding-top: 155px;
 }
 .menu-list a{
 	color: #626262;
 	font-size: 25px;
-	font-style: bold;
+	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-family: montserrat;
@@ -107,10 +105,10 @@ color: white;
 	text-transform: uppercase;
 	line-height: 20px;
 	font-family: raleway;
-	margin-left: 255px;
+	margin-left: 250px;
 	letter-spacing: 0.12em;
-	margin-top: 170px;
-	display: inline-block;
+	margin-top: 200px;
+	display: block;
 }
 .nothing{
     color: white;
@@ -119,9 +117,9 @@ color: white;
 	text-decoration: none;
 	line-height: 20px;
 	font-family: raleway;
-	margin-top: 19px;
+	margin-top: 50px;
 	white-space: nowrap;
-	margin-left: 260px;
+	margin-left: 250px;
 	display:block;
 	letter-spacing: 0.12em;
 }
@@ -139,10 +137,9 @@ color: white;
 	display: inline;
 }
 .dot{
-	margin-top:110px; 
-	
-}
-.dot-current{
+	position: absolute;
+	bottom: 50px;
+	right: 50%;
 	
 }
 .dot img{
@@ -204,16 +201,16 @@ color: white;
     height: 1px;
     margin:auto;
     margin-top: 25px;
-
 }
 .section3{
 	background: #ffe9e2;
 	height: 325px;
-
 }
 .slide-s3{
-	width: 399px;
+	width: 400px;
 	float: right;
+	height: 325px
+	background-size:cover;
 }
 .t3{
 	color: black;
@@ -221,11 +218,11 @@ color: white;
 	font-weight: bold;
 	text-align: left;
 	text-decoration: none;
-	padding-top: 73px;
+	padding-top: 33px;
 	line-height: 25px; 
 	font-family: raleway;
+	display: block;
 	white-space: nowrap;
-	padding-right: 80px;
 	float: left;
 }
 .t4{
@@ -236,12 +233,14 @@ color: white;
 	font-family: raleway;
 	white-space: nowrap;
 	float: left;
+	display: block;
 	padding-top: 25px;
 	text-align: left;
 }
 .nav-bar{
-	padding-top: 25px;
-float: left;
+	padding-top: 280px;
+	display: block;
+	width: 90px;
 }
 .nav-bar img{
 	width: 7px;
@@ -263,30 +262,28 @@ float: left;
 	white-space: nowrap;
 	display:block;
 	text-align: left;
-	
 }
 .table{
-display: table;
-border-collapse: collapse;
-width: 700px;
-margin-top: 70px;
-
+	display: table;
+	border-collapse: collapse;
+	width: 700px;
+	margin-top: 70px;
 }
 .row{
-display: table-row;
-border-collapse: collapse;
+	display: table-row;
+	border-collapse: collapse;
 }
 .cell{
-display: table-cell;
-border:1px solid #dcdcdc;
-border-collapse: collapse;
-height: 145px;
-width: 350px;
-padding-left: 28px;
-padding-right: 50px;
+	display: table-cell;
+	border:1px solid #dcdcdc;
+	border-collapse: collapse;
+	height: 145px;
+	width: 350px;
+	padding-left: 28px;
+	padding-right: 50px;
 }
 .t5{
-color: black;
+	color: black;
 	font-size: 15px;
 	font-weight: bold;
 	text-decoration: none;
@@ -296,18 +293,17 @@ color: black;
 	text-align: left;
 }
 .t6{
-color: black;
+	color: black;
 	font-size: 10px;
 	font-weight: 400;
 	text-decoration: none;
 	font-family: raleway;
-	
 	float: left;
 	padding-top: 20px;
 	text-align: left;
 }
 .t7{
-color: black;
+	color: black;
 	font-size: 10px;
 	font-weight: 400;
 	font-style: italic;
@@ -323,10 +319,8 @@ color: black;
     float: left;
     display: block;
     margin-top: 20px;
-
 }
 .reasons-btn{
-
 	display: block;
 	color: black;
 	font-size: 10px;
@@ -343,10 +337,8 @@ color: black;
 	margin-top: 33px;
 }
 .section5{
-background: url("back-s5.png") no-repeat ;
-background-size: contain;
-height: 330px;
-
+	background: url("back-s5.png") no-repeat ;
+	height: 400px;
 }
 .section5 .h2{
 	color: white;
@@ -357,7 +349,7 @@ height: 330px;
 	font-family: raleway;
 	display:block;
 	letter-spacing: 0.01em;
-	padding-top:90px; 
+	padding-top:110px; 
 }
 .section5 .t1{
 	color: white;
@@ -388,7 +380,7 @@ height: 330px;
     float: left;
     display: block;
     margin-top: 20px;
-    padding-left: 100vw;
+    margin-right: 600px;
 }
 
 .p-big{
@@ -398,9 +390,7 @@ height: 330px;
 	background-size: contain;
 	float: left;
 	margin-top: 50px;
-
 	position: relative;
-
 }
 .p-big:hover{
 	box-shadow: 0 0 50px 5px rgba(0,0,0,0.5);
@@ -413,9 +403,7 @@ height: 330px;
 	margin-top: 50px;
 	float: right;
 	margin-bottom: 5px;
-
 	position: relative;
-	
 }
 .p-wide:hover{
 	box-shadow: 0 0 50px 5px rgba(0,0,0,0.5);
@@ -428,7 +416,6 @@ height: 330px;
 	float: right;
 	margin: 20px;
 	margin-bottom: 0px;
-
 	position: relative;
 }
 .p-small-left:hover{
@@ -442,13 +429,10 @@ height: 330px;
 	float: right;
 	margin-top: 20px;
 	margin-left: 20px;
-
 	position: relative;
 }
 .p-small:hover{
 	box-shadow: 0 0 50px 5px rgba(0,0,0,0.5);
-}
-.posters{
 }
 .buy{
 	color: white;
@@ -463,9 +447,7 @@ height: 330px;
 	bottom: 5px;
 	left: 15px;
     letter-spacing: 0.15em;
-
 	padding: 5px;
-
 }
 .buy:hover{
 	border: 2px solid white;
@@ -494,36 +476,35 @@ height: 330px;
 	width: 160px;
 	top: 60px;
 	position: relative;
-
 	}
-	.section7{
-		min-height: 50vh;
-
-	}
-	.browse{
-		width: 25%;
-		min-height: 200px;
-		float: left;
-	}
-	.browse a{
-		display: block;
-  font-size: 8px;
-  font-family: "Montserrat";
-  text-align: left;
-  color: black;
-  text-transform: uppercase;
-  line-height: 0.85;
-  text-decoration: none;
+.section7{
+	min-height: 50vh;
+    position: absolute;
+}
+.browse{
+	width: 25%;
+	min-height: 200px;
+	float: left;
+}
+.browse a{
+	display: block;
+  	font-size: 8px;
+	font-family: "Montserrat";
+	text-align: left;
+	color: black;
+	text-transform: uppercase;
+	line-height: 0.85;
+	text-decoration: none;
 }
 ul{
- margin-left: 0px;
- padding-left: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
 }
 
 .shop{
 	width: 25%;
-min-height: 200px;
-float: left;
+	min-height: 200px;
+	float: left;
 }
 .shop a{
   font-size: 8px;
@@ -537,7 +518,7 @@ float: left;
 }
 li{
 	list-style: none;
-
+	margin-bottom: 15px;
 }
 .contact{
 	width: 25%;
@@ -558,10 +539,7 @@ float: left;
 .top{
 font-size: 10px;
 font-weight: bold;
-
-
-
-
+margin-top: 64px;
 font-family: "Montserrat";
   color: black;
   display: block;
@@ -569,12 +547,14 @@ font-family: "Montserrat";
   line-height: 0.85;
   text-align: left;
   text-decoration: none;
+  margin-bottom: 32px;
 }
 .subscribe{
 	width: 25%;
 min-height: 200px;
 float:left;
 }
+.subscribe
 p{
 	font-size: 8px;
   font-family: "Montserrat";
@@ -584,4 +564,140 @@ p{
   line-height: 0.85;
   text-align: left;
   text-decoration: none;
+  line-height: 10px;
 }
+.mail{
+	background: #dcdcdc;
+	border:none;
+	padding: 7px 90px 7px 7px;
+	font-size: 8px;
+  font-family: "Montserrat";
+  color: #a9a9a9;
+  display: block;
+  text-transform: uppercase;
+  line-height: 0.85;
+  text-align: left;
+  text-decoration: none;
+  line-height: 10px;
+}
+.f2{
+	background: url("footer-back.png");
+	background-size: cover;
+	height: 45px;
+	width: 98vw;
+	margin-top: 300px;
+}
+.Copyright{
+	font-size: 8px;
+  font-family: "Montserrat";
+  color: black;
+  display: block;
+  float: left;
+  text-transform: uppercase;
+  line-height: 0.85;
+  text-align: left;
+  text-decoration: none;
+  line-height: 10px;
+  padding-top: 20px;
+  width: 50%;
+}
+.socials{
+	width: 25%;
+	float:right;
+}
+.socials a{
+	margin-right: 8px;
+	opacity: 0.5;
+}
+.facebook{
+background: url("facebook.png") no-repeat;
+width: 5.5px;
+height: 13px;
+background-size: contain;
+display: block;
+float: left;
+margin-top: 15px;
+}
+.twitter{
+background: url("twitter.png") no-repeat;
+width: 11.5px;
+height: 13px;
+background-size: contain;
+float: left;
+display: block;
+
+margin-top: 17px;
+}
+.linkedin{
+background: url("linkedin.png") no-repeat;
+width: 17px;
+height: 13px;
+display: block;
+float: left;
+background-size: contain;
+margin-top: 15px;
+}
+.youtube{
+background: url("youtube.png") no-repeat;
+width: 17px;
+height: 13px;
+
+display: block;
+float: left;
+background-size: contain;
+margin-top: 16px;
+}
+.googleplus{
+background: url("plus.png") no-repeat;
+width: 23px;
+height: 13px;
+background-size: contain;
+display: block;
+float: left;
+
+margin-top: 15px;
+}
+.pinterest{
+background: url("pin.png") no-repeat;
+width: 12px;
+height: 13px;
+display: block;
+float: left;
+background-size: contain;
+margin-top: 15px;
+}
+.instagram{
+background: url("inst.png") no-repeat;
+width: 13px;
+height:13px;
+display: block;
+float: left;
+margin-top: 15px;
+background-size: contain;
+}
+.e-mail{
+background: url("email.png") no-repeat;
+width: 17px;
+height: 13px;
+display: block;
+float: left;
+margin-top: 15px;
+background-size: contain;
+margin-right: 0px !important;
+}
+.submit-mail{
+	color: black;
+	font-size: 8px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: montserrat;
+	border:1px solid black;
+	border-radius: 3px;
+	padding: 5px 5px;
+	cursor: pointer;
+	width: 70px;
+	margin-top: 10px;
+	display: block;
+	float: left;
+	}
